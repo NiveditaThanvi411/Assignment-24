@@ -42,6 +42,8 @@
 .services-container{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    text-wrap: wrap;
 
 }
 
@@ -58,6 +60,9 @@
             .text-form{
                 font-size: 15px;
             }
+            .services-container{
+                flex-direction: column;
+            }
         }
 
          /* Tablet Devices */
@@ -70,6 +75,9 @@
             }
             .text-form{
                 font-size: 19px;
+            }
+            .services-container{
+                flex-direction: column;
             }
         }
 
