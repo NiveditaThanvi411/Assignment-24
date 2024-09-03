@@ -46,7 +46,37 @@
     text-wrap: wrap;
 
 }
+.menu-card{
+    background-color:#8080ff;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    height: 220px;
+    border: 2px solid #3333ff;
+}
 
+.menu-img{
+    height: 100px;
+    width: 130px;
+    display: block;
+    margin: 15px auto;
+
+}
+.menu-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.btn{
+    background-color: #e6e6ff;
+    color:black;
+    border-radius: 15px;
+    border: none;
+    padding: 1px 5px;
+    display: block;
+    margin: 10px auto;
+}
 
 
         /* Mobile Devices */
@@ -61,6 +91,9 @@
                 font-size: 15px;
             }
             .services-container{
+                flex-direction: column;
+            }
+            .menu-container{
                 flex-direction: column;
             }
         }
@@ -79,6 +112,9 @@
             .services-container{
                 flex-direction: column;
             }
+            .menu-container{
+                flex-direction: column;
+            }
         }
 
          /* Desktop Devices */
@@ -90,13 +126,13 @@
 </head>
 <body>
    <h1 class="page-heading">
-    🐶<i>Pet Paradise</i>🐶
+    🐶<i>Pet Paradise</i>🐶</h1>
     <h2 class="text-form">"Bringing Pets and People Together with Love and Care. Your One-Stop Shop for Happy, Healthy Pets!"git</h2>
     <hr>
     <p class="text-form  paragraph">
     Welcome to <b>Pet Paradise</b>, where pets are more than just animals—they're family! Our store is dedicated to providing everything your furry, feathered, or finned friends need to live happy, healthy lives. From high-quality pet food and fun toys to grooming services and expert advice, we’re your one-stop shop for all things pets.
 
-At <b>Pet Paradise</b>, we believe in creating a welcoming environment where every pet feels at home. Whether you’re looking for the perfect accessory for your dog, a cozy habitat for your reptile, or simply the best treats for your cat, our knowledgeable staff is here to help. We pride ourselves on offering a wide range of products and services tailored to meet the unique needs of your beloved pets.
+At <b>Pet Paradise</b>, we believe in creating a welcoming environment where every pet feels at home. Whether you’re looking for the perfect accessory for your dog, a cozy habitat for your reptile, or simply the best treats for your cat, our knowledgeable staff is here to help. We pride ourselves on offering a wide range of products and services tailored to meet the unique needs of your beloved pets. </p>
 
 <h2 class="page-heading">Why Choose Us?</h2>
 <p class="text-form paragraph">🐕Here are some major services we provide!!!🐕</p>
@@ -137,10 +173,73 @@ At <b>Pet Paradise</b>, we believe in creating a welcoming environment where eve
         <p>Build a stronger bond with your pet through our training services. We offer obedience classes, behavior consultations, and one-on-one training sessions to help your pet learn good manners.</p>
 
     </div>
-
-    
 </div>
-</p>
-</h1>
+
+<h2 class="page-heading">Here are some great products we offer</h2>
+<p class="text-form paragraph">🐕Here are some major services we provide!!!🐕</p>
+
+<div class="menu-container">
+    <div class="menu-card">
+        <img src="images/food products 1.webp" class="menu-img">
+        <h3 class="text-centre">DOG FOOD</h3>
+        <p>Price:₹250/-</p>
+        <button class="btn">Order Now</button>
+    </div>
+
+    <div class="menu-card">
+        <img src="images/pet toy 1.jpeg" class="menu-img">
+        <h3 class="text-centre">PET TOYS (BALLS)</h3>
+        <p>Price:₹250/-</p>
+        <button class="btn">Order Now</button>
+
+    </div>
+    <div class="menu-card">
+        <img src="images/pet toy 2.webp" class="menu-img">
+        <h3 class="text-centre">PET TOYS</h3>
+        <p>Price:₹270/-</p>
+        <button class="btn">Order Now</button>
+
+    </div>
+
+
+    <div class="menu-card">
+        <img src="images/cat food.webp" class="menu-img">
+        <h3 class="text-centre">CAT FOOD</h3>
+        <p>Price:₹300/-</p>
+        <button class="btn">Order Now</button>
+
+    </div>
+
+
+    <div class="menu-card">
+        <img src="images/bird food.jpeg" class="menu-img">
+        <h3 class="text-centre">BIRD FOOD</h3>
+        <p>Price:₹230/-</p>
+        <button class="btn">Order Now</button>
+
+    </div>
+
+    <div class="menu-card">
+        <img src="images/fish food.jpg" class="menu-img">
+        <h3 class="text-centre">FISH FOOD</h3>
+        <p>Price:₹170/-</p>
+        <button class="btn">Order Now</button>
+
+    </div>
+
+    <div class="menu-card">
+        <img src="images/Pet cages.jpg" class="menu-img">
+        <h3 class="text-centre">CAGE FOR SMALL PETS</h3>
+        <p>Price:₹1500/-</p>
+        <button class="btn">Order Now</button>
+
+    </div>
+
+    <div class="menu-card">
+        <img src="images/PET VITAMINS.jpg" class="menu-img">
+        <h3 class="text-centre">VITAMINS AND SUPPLEMENTS</h3>
+        <p>Price:₹500/-</p>
+        <button class="btn">Order Now</button>
+
 </body>
 </html>
